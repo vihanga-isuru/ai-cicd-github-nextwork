@@ -27,8 +27,8 @@ class TestMultiply:
     """Tests for the multiply function."""
 
     def test_multiply_positive(self):
-        assert multiply(3, 4) == 10
-        assert multiply(2, 5) == 5
+        assert multiply(3, 4) == 12
+        assert multiply(2, 5) == 10
 
     def test_multiply_by_zero(self):
         assert multiply(7, 0) == 0
